@@ -28,7 +28,7 @@
 			<Metadata name="Catalog.Сотрудники.TabularSection.ИнформацияОСотруднике.Attribute.ДатаРождения" id="993200ca-cf37-407d-b04a-f7e26a5a4395"/>
 			<Metadata name="Catalog.Сотрудники.TabularSection.ИнформацияОСотруднике.Attribute.ДатаПриемаНаРаботу" id="e8b4a7f1-1dac-4934-8ab7-e6c3c3448b83"/>
 		</Metadata>
-		<Metadata name="Catalog.Товары" id="f811bea9-3789-403f-a80f-3c742cf01f15" configVersion="d3ea73b1be7d6b40b1d16963f4674de800000000">
+		<Metadata name="Catalog.Товары" id="f811bea9-3789-403f-a80f-3c742cf01f15" configVersion="5540ab82caaa264c9ee2872b94bdb1a800000000">
 			<Metadata name="Catalog.Товары.TabularSection.ИнформацияОТоваре.Attribute.Поставщик" id="10e7c251-7eec-4f06-84a2-e02f75a00a6a"/>
 			<Metadata name="Catalog.Товары.TabularSection.ИнформацияОТоваре.Attribute.БракНаличие" id="23486b1a-38f6-4440-93b5-f2c52ee29c9f"/>
 			<Metadata name="Catalog.Товары.TabularSection.ИнформацияОТоваре" id="5b8638ab-824f-46ec-ab82-7869ea2179b0"/>
