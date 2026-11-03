@@ -14,27 +14,45 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоОборот</dataPath>
-			<field>КоличествоОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СтоимостьОборот</dataPath>
-			<field>СтоимостьОборот</field>
+			<dataPath>Стоимость</dataPath>
+			<field>Стоимость</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВыручкаОборот</dataPath>
-			<field>ВыручкаОборот</field>
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выручка</dataPath>
+			<field>Выручка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Товар КАК Товар,
-	ПродажиОбороты.КоличествоОборот КАК КоличествоОборот,
-	ПродажиОбороты.СтоимостьОборот КАК СтоимостьОборот,
-	ПродажиОбороты.ВыручкаОборот КАК ВыручкаОборот
+	ПродажиОбороты.СтоимостьОборот КАК Стоимость,
+	ПродажиОбороты.КоличествоОборот КАК Количество,
+	ПродажиОбороты.ВыручкаОборот КАК Выручка
 ИЗ
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
@@ -81,25 +99,25 @@
 					<dcsset:field>Товар</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СтоимостьОборот</dcsset:field>
+					<dcsset:field>Стоимость</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КоличествоОборот</dcsset:field>
+					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ВыручкаОборот</dcsset:field>
+					<dcsset:field>Выручка</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>30fac60b-0bea-4242-b0fc-f06bea0a3cf8</dcsset:userSettingID>
+					<dcsset:userSettingID>74ac942f-41be-47e3-8c9f-26e5955968dd</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>15b21426-6c6c-4c3c-b9a3-f134a7349624</dcsset:userSettingID>
+					<dcsset:userSettingID>019727c3-3522-4819-81d1-28271553fe5d</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

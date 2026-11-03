@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Report uuid="a00840ff-9bcd-4832-8279-cda744d81fc4">
+	<Report uuid="42e58084-c427-4c9b-9a9f-da0e9123ed21">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ОборотыПоТоварам" category="Object">
-				<xr:TypeId>0c880d85-b152-4b27-af9a-b56361d6f0ee</xr:TypeId>
-				<xr:ValueId>e53b70a9-1795-49c6-be4f-012dc95dd8fc</xr:ValueId>
+				<xr:TypeId>8cbfa99a-9f5a-440b-adcf-07eb863e910b</xr:TypeId>
+				<xr:ValueId>0cc2fee9-7acb-4289-8457-631d6b9c785f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ОборотыПоТоварам" category="Manager">
-				<xr:TypeId>52787b57-a564-4cfb-b9b0-261e7cd5e114</xr:TypeId>
-				<xr:ValueId>222e7c0b-2584-42fe-a3a9-31eff0dc8ec4</xr:ValueId>
+				<xr:TypeId>6bfbb59a-ac81-420e-b0ee-341a5c0b9458</xr:TypeId>
+				<xr:ValueId>09333639-0c47-43c1-b1c2-8366fb759c02</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
